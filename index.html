@@ -1,0 +1,141 @@
+<!doctype HTML>
+<html>
+   <head>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Unbounded">
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<style>
+body {font-family: Unbounded;
+background-color: #532BCE}
+   @media only screen and (max-width: 600px) {
+  .item1 {grid-area: 1 / span 6;}
+  .item2 {grid-area: 2 / span 6;}
+  .item3 {grid-area: 3 / span 6;}
+  }
+  * {
+  margin: 0;
+  box-sizing: border-box;
+  }
+.grid-container {
+  display: grid;
+  grid-template-areas: 
+  'header header header header' 
+  'menu black black black'
+  'main main main main';
+  gap: 4px;
+  padding:10px;
+}
+.grid-container > div {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.item1 {
+ grid-area: header;
+}
+.item1 > h1 {
+font-size: 40px;
+color: slateblue;
+text-align: center;
+background-color: violet;
+}
+
+.item2 {
+  grid-area: menu;
+  }  
+.item2 > ul {
+  list-style-type: none;
+  margin: 5;
+  padding: 5;
+}
+.item2 li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: violet;
+  color: slateblue;
+  font-size: 17px;
+}
+.item2 li:hover {
+  background-color: purple;
+}
+.item3 {
+  grid-area: main
+} 
+.item3 > table {
+font-size: 17px;
+margin-bottom: 20px;
+color: slateblue;
+}
+.item4 {
+  grid-area: black
+}
+.item4 > p {
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li a {
+  color: slateblue;
+  text-decoration: none;
+}
+    tr, td, th {
+    border-style: solid; 
+    border-width: 3px; 
+    border-color: violet}
+    table {border-style: solid; 
+    border-width: 3px; 
+    border-color: slateblue;
+    color: slateblue}
+    body {background-color: #2A0A11}
+    h2 {color: slateblue}
+.h1 {font-family: "HeavyJack";}
+p {
+  color: slateblue;
+  font-size: 18px;
+}
+</style>
+    
+     <title>
+     Cool Bands I Like
+     </title>
+ </head>
+ <div class="grid-container"
+  <body>
+        <div class="item1"><h1>Music I Like</h1></div>
+        <div class="item2"><ul>
+          <li><a href ="https://www.youtube.com/channel/UCvJMlx0dUPpocg56Ztclr1g" target="_blank">Favoriete artiesten.</a></li>
+          <li><a href ="https://www.youtube.com/watch?v=Tcv5ATShR4g&list=RDTcv5ATShR4g&start_radio=1" target="_blank">Concerten.</a></li>
+          <li><a href ="https://www.youtube.com/watch?v=dQw4w9WgXcQ&list=RDdQw4w9WgXcQ&start_radio=1" target="_blank">Reccomendation.</a></li>
+        </ul></div>
+        <div class="item3"><table>
+          <p>Mijn muziek smaak in a nutshell</p>
+          <tr>
+            <th>Metal</th>
+            <th>Rock</th>
+            <th>Classical</th>
+            <th>Electronic</th>
+          </tr>
+          <tr>
+            <td>SOAD</td>
+            <td>Billy Joel</td>
+            <td>Claude DeBussy</td>
+            <td>KMFDM</td>
+          </tr>
+          <tr>
+            <td>Moonlit Seance</td>
+            <td>Weezer</td>
+            <td>Kanneh Mason</td>
+            <td>Femtanyl</td>
+          </tr>
+          <tr>
+            <td>Korn</td>
+            <td>Lemon Demon</td>
+            <td>Beethoven</td>
+            <td>Zelda OST's</td>
+        </table>
+        </div>
+        <div class="item4"><p></p></div>
+        <div class="item5"><p3>
+  </body>
+</html>
